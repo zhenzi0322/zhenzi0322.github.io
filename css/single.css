@@ -210,7 +210,7 @@
 /*TOC*/
 #single aside.toc {
   padding: 0.7rem 1rem;
-  max-height: 50vh;
+  max-height: 80vh;
   overflow: scroll;
 }
 
@@ -222,7 +222,6 @@
 
 #single aside.toc .toc-content ol,
 #single aside.toc .toc-content ul {
-  margin-bottom: 1em;
   padding-left: 0.5em;
   list-style: none;
   opacity: 0.9;
