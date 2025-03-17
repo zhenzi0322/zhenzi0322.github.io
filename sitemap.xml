@@ -2,22 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.long920.cn/python%E5%BA%93/requests/</loc>
-    <lastmod>2025-03-16T11:03:07+08:00</lastmod>
+    <loc>https://www.long920.cn/python/random/</loc>
+    <lastmod>2025-03-17T20:51:13+08:00</lastmod>
   </url><url>
     <loc>https://www.long920.cn/</loc>
+    <lastmod>2025-03-17T20:51:13+08:00</lastmod>
+  </url><url>
+    <loc>https://www.long920.cn/python/requests/</loc>
     <lastmod>2025-03-16T11:03:07+08:00</lastmod>
   </url><url>
-    <loc>https://www.long920.cn/python%E5%BA%93/http.client/</loc>
+    <loc>https://www.long920.cn/python/http.client/</loc>
     <lastmod>2025-03-16T11:00:05+08:00</lastmod>
   </url><url>
-    <loc>https://www.long920.cn/python%E5%BA%93/aiohttp/</loc>
+    <loc>https://www.long920.cn/python/aiohttp/</loc>
     <lastmod>2025-03-16T10:57:37+08:00</lastmod>
   </url><url>
-    <loc>https://www.long920.cn/python%E5%BA%93/httpx/</loc>
+    <loc>https://www.long920.cn/python/httpx/</loc>
     <lastmod>2025-03-16T10:39:59+08:00</lastmod>
   </url><url>
-    <loc>https://www.long920.cn/python%E5%BA%93/</loc>
+    <loc>https://www.long920.cn/python/</loc>
     <lastmod>2025-03-16T10:20:10+08:00</lastmod>
   </url><url>
     <loc>https://www.long920.cn/privacy/</loc>

@@ -28,24 +28,17 @@
 
 
 
-<meta property="og:url" content="https://www.long920.cn/python%E5%BA%93/httpx/">
+<meta property="og:url" content="https://www.long920.cn/python/">
   <meta property="og:site_name" content="书阁园">
-  <meta property="og:title" content="Httpx">
-  <meta property="og:description" content="httpx是一个现代化的HTTP客户端库，支持同步和异步请求，功能比requests更强大。
-安装：
-pip install httpx 同步请求 import httpx response = httpx.get(&#39;https://api.example.com/data&#39;) print(response.status_code) print(response.json()) 异步请求 import httpx import asyncio async def fetch_data(): async with httpx.AsyncClient() as client: response = await client.get(&#39;https://api.example.com/data&#39;) print(response.json()) asyncio.run(fetch_data())">
+  <meta property="og:title" content="Python库">
+  <meta property="og:description" content="Text about my cool site">
   <meta property="og:locale" content="en_us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="python库">
-    <meta property="article:published_time" content="2025-03-16T10:39:59+08:00">
-    <meta property="article:modified_time" content="2025-03-16T10:39:59+08:00">
+  <meta property="og:type" content="website">
 
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Httpx">
-  <meta name="twitter:description" content="httpx是一个现代化的HTTP客户端库，支持同步和异步请求，功能比requests更强大。
-安装：
-pip install httpx 同步请求 import httpx response = httpx.get(&#39;https://api.example.com/data&#39;) print(response.status_code) print(response.json()) 异步请求 import httpx import asyncio async def fetch_data(): async with httpx.AsyncClient() as client: response = await client.get(&#39;https://api.example.com/data&#39;) print(response.json()) asyncio.run(fetch_data())">
+  <meta name="twitter:title" content="Python库">
+  <meta name="twitter:description" content="Text about my cool site">
 
 
 <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css" media="all"><link rel="stylesheet" href="/css/header.css" media="all">
@@ -109,18 +102,15 @@ pip install httpx 同步请求 import httpx response = httpx.get(&#39;https://ap
 
 
 
-<meta name="description" content="">
-<link rel="stylesheet" href="/css/single.css">
-
-
-<script defer src="/fontawesome-6/all-6.4.2.js"></script>
+<meta name="description" content="Python库 of 书阁园">
+<link rel="stylesheet" href="/css/list.css" media="all">
 
 
   
   
 
   <title>
-Httpx | 书阁园
+Python库 | 书阁园
 
   </title>
 </head>
@@ -213,7 +203,7 @@ Httpx | 书阁园
                         </a>
                         <div class="dropdown-menu shadow-lg rounded" aria-labelledby="navbarDropdown">
                             
-                            <a class="dropdown-item text-center nav-link" href="/python%E5%BA%93"
+                            <a class="dropdown-item text-center nav-link" href="/python"
                                 title="python库">
                                 python库
                             </a>
@@ -254,135 +244,146 @@ Httpx | 书阁园
     </nav>
 </header>
 <div id="content">
-<section id="single">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-sm-12 col-md-12 col-lg-9">
-        <div class="pr-lg-4">
-          <div class="title mb-5">
-            <h1 class="text-center mb-4">Httpx</h1>
-            <div class="text-center">
-              
-                作者: long
-                <small>|</small>
-              
-              
-              2025-03-16
-
-              
-            </div>
-          </div>
-          
-          <article class="page-content  p-2">
-          <blockquote>
-<p><code>httpx</code>是一个现代化的<code>HTTP</code>客户端库，支持同步和异步请求，功能比<code>requests</code>更强大。</p></blockquote>
-<p>安装：</p>
-<pre tabindex="0"><code>pip install httpx
-</code></pre><h3 id="同步请求">同步请求</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> httpx
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>response <span style="color:#f92672">=</span> httpx<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://api.example.com/data&#39;</span>)
-</span></span><span style="display:flex;"><span>print(response<span style="color:#f92672">.</span>status_code)
-</span></span><span style="display:flex;"><span>print(response<span style="color:#f92672">.</span>json())
-</span></span></code></pre></div><h3 id="异步请求">异步请求</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#f92672">import</span> httpx
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> asyncio
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">async</span> <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">fetch_data</span>():
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">async</span> <span style="color:#66d9ef">with</span> httpx<span style="color:#f92672">.</span>AsyncClient() <span style="color:#66d9ef">as</span> client:
-</span></span><span style="display:flex;"><span>        response <span style="color:#f92672">=</span> <span style="color:#66d9ef">await</span> client<span style="color:#f92672">.</span>get(<span style="color:#e6db74">&#39;https://api.example.com/data&#39;</span>)
-</span></span><span style="display:flex;"><span>        print(response<span style="color:#f92672">.</span>json())
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>asyncio<span style="color:#f92672">.</span>run(fetch_data())
-</span></span></code></pre></div>
-          </article>
-        </div>
-        <div class="d-flex justify-content-between">
-          
-          <a href="/privacy/">上一篇</a>
-          
-          
-          
-          <a href="/python%E5%BA%93/aiohttp/">下一篇</a>
-          
-        </div>
-      </div>
-      
-      <div class="col-sm-12 col-md-12 col-lg-3">
-        <div id="stickySideBar" class="sticky-sidebar">
-          <aside class="toc">
-            <h5>
-              目录
-            </h5>
-            <div class="toc-content">
-              <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#同步请求">同步请求</a></li>
-        <li><a href="#异步请求">异步请求</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
-            </div>
-          </aside>
-        </div>
-      </div>
-      
-      
-    </div>
-    
+<div class="container pt-5" id="list-page">
+    <h2 class="text-center pb-2">Python库</h2>
     <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
         
-      </div>
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/python/random/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="python之random随机数生成">python之random随机数生成</h5>
+                        </a>
+                        
+
+                        <div class="card-text secondary-font">
+                            
+                            
+                            <p> random模块是Python标准库的一部分，提供了多种生成随机数的函数。
+随机数生成 random.random(): 生成一个[0.0, 1.0)范围内的...</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">2025-03-17</span>
+                        <a href="/python/random/" class="float-end btn btn-outline-info btn-sm">阅读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/python/requests/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Requests">Requests</h5>
+                        </a>
+                        
+
+                        <div class="card-text secondary-font">
+                            
+                            
+                            <p> requests是Python中最流行的HTTP请求库，以其简洁的API和强大的功能著称。
+安装：
+pip install requests 发送 GET 请...</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">2025-03-16</span>
+                        <a href="/python/requests/" class="float-end btn btn-outline-info btn-sm">阅读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/python/http.client/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Http.client">Http.client</h5>
+                        </a>
+                        
+
+                        <div class="card-text secondary-font">
+                            
+                            
+                            <p> http.client是Python标准库中的模块，提供了底层的HTTP客户端功能。虽然功能强大，但API较为复杂，适合需要更精细控制的场景。
+示例：...</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">2025-03-16</span>
+                        <a href="/python/http.client/" class="float-end btn btn-outline-info btn-sm">阅读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/python/aiohttp/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="aiohttp">aiohttp</h5>
+                        </a>
+                        
+
+                        <div class="card-text secondary-font">
+                            
+                            
+                            <p> aiohttp是一个专注于异步请求的库，适合高性能的异步 Web 请求。
+安装：
+pip install aiohttp 示例：
+import aiohttp...</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">2025-03-16</span>
+                        <a href="/python/aiohttp/" class="float-end btn btn-outline-info btn-sm">阅读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 my-3">
+            <div class="card-columns">
+                <div class="card h-100">
+                    
+                    <div class="card-body bg-transparent p-4 shadow-sm">
+                        <a href="/python/httpx/" class="primary-font card-title">
+                            <h5 class="card-title bg-transparent" title="Httpx">Httpx</h5>
+                        </a>
+                        
+
+                        <div class="card-text secondary-font">
+                            
+                            
+                            <p> httpx是一个现代化的HTTP客户端库，支持同步和异步请求，功能比requests更强大。
+安装：
+pip install httpx...</p>
+                        </div>
+                    </div>
+                    <div class="mt-auto post-footer bg-transparent py-3">
+                        <span class="float-start bg-transparent">2025-03-16</span>
+                        <a href="/python/httpx/" class="float-end btn btn-outline-info btn-sm">阅读</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-auto m-3">
+                
+            </div>
+        </div>
     </div>
-    
-  </div>
-  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
-    <i class="fas fa-angle-up"></i>
-  </button>
-</section>
-
-
-<div class="progress">
-  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
-<Script src="/js/scrollProgressBar.js"></script>
-
-
-<script>
-  var topScroll = document.getElementById("topScroll");
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      topScroll.style.display = "block";
-    } else {
-      topScroll.style.display = "none";
-    }
-  }
-
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
-  
-  let stickySideBarElem = document.getElementById("stickySideBar");
-  let stickyNavBar =  false ;
-  if(stickyNavBar) {
-    let headerElem = document.getElementById("profileHeader");
-    let headerHeight = headerElem.offsetHeight + 15;
-    stickySideBarElem.style.top = headerHeight + "px";
-  } else {
-    stickySideBarElem.style.top = "50px";
-  }
-</script>
-
-
-
 
   </div><footer>
     
