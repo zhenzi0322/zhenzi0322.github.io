@@ -1,9 +1,9 @@
 {
-  "version": "1.2.879",
+  "version": "1.2.882",
   "description": [
     "更新预览区滚动标题跟随目录",
-    "修复ui"
+    "修复编辑器工具项列表功能"
   ],
   "client": "test",
-  "version_time": "2025-06-21 09:15"
+  "version_time": "2025-06-23 10:10"
 }
