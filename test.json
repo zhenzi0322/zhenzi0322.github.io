@@ -1,0 +1,39 @@
+{
+  "update_notification": {
+    "current_version": "1.0.0",
+    "latest_version": "1.2.0",
+    "release_date": "2024-10-23",
+    "file_size": "15.6 MB",
+    "is_mandatory": true,
+    "update_url": "https://www.long920.cn/download/latest-version",
+    "changelog": [
+      {
+        "title": "新增功能",
+        "items": [
+          "支持深色模式切换，在设置中可自由切换",
+          "添加批量导入导出功能，提高工作效率",
+          "新增快捷键支持，Ctrl+S快速保存"
+        ]
+      },
+      {
+        "title": "问题修复",
+        "items": [
+          "修复Windows系统下窗口最大化时的卡顿问题",
+          "解决部分用户反馈的登录超时问题",
+          "修复文件导出时偶发的格式错误"
+        ]
+      },
+      {
+        "title": "性能优化",
+        "items": [
+          "优化大数据加载速度，提升约30%",
+          "减少后台进程内存占用，降低资源消耗"
+        ]
+      }
+    ],
+    "extra_info": {
+      "support_deadline": "2024-12-31",
+      "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
+    }
+  }
+}
