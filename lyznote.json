@@ -3,7 +3,7 @@
   "latest_version": "1.2.939",
   "release_date": "2024-10-23",
   "file_size": "15.6 MB",
-  "is_mandatory": true,
+  "is_mandatory": false,
   "update_url": "https://www.long920.cn/download/latest-version",
   "changelog": [
     {
@@ -36,3 +36,4 @@
   }
 
 }
+
