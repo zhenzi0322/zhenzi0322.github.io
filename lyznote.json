@@ -1,6 +1,6 @@
 {
-  "current_version": "1.0.0",
-  "latest_version": "1.2.0",
+  "current_version": "1.2.938",
+  "latest_version": "1.2.939",
   "release_date": "2024-10-23",
   "file_size": "15.6 MB",
   "is_mandatory": true,
@@ -34,4 +34,5 @@
     "support_deadline": "2024-12-31",
     "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
   }
+
 }
