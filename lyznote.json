@@ -1,8 +1,8 @@
 {
   "current_version": "1.2.938",
-  "latest_version": "1.2.939",
-  "release_date": "2024-10-23",
-  "file_size": "15.6 MB",
+  "latest_version": "1.2.940",
+  "release_date": "2025-10-25",
+  "file_size": "1.05 MB",
   "is_mandatory": false,
   "update_url": "https://www.long920.cn/download/latest-version",
   "changelog": [
@@ -31,9 +31,10 @@
     }
   ],
   "extra_info": {
-    "support_deadline": "2024-12-31",
+    "support_deadline": "2025-10-24",
     "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
   }
 
 }
+
 
