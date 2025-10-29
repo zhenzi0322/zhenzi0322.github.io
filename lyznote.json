@@ -4,6 +4,7 @@
   "release_date": "2025-10-25",
   "file_size": "1.05 MB",
   "is_mandatory": false,
+  "flag": "debug",
   "update_url": "https://www.long920.cn/download/latest-version",
   "changelog": [
     {
@@ -36,6 +37,7 @@
   }
 
 }
+
 
 
 
