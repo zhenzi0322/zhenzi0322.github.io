@@ -10,13 +10,13 @@
     {
       "title": "新增功能",
       "items": [
-        "增加类目可排序",
+        "增加类目可排序"
       ]
     },
     {
       "title": "界面优化",
       "items": [
-        "优化界面弹窗ui",
+        "优化界面弹窗ui"
       ]
     }
   ],
@@ -24,8 +24,8 @@
     "support_deadline": "2025-10-24",
     "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
   }
-
 }
+
 
 
 
