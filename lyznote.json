@@ -1,7 +1,7 @@
 {
   "current_version": "1.2.945",
-  "latest_version": "1.2.948",
-  "release_date": "2025-11-10",
+  "latest_version": "1.2.985",
+  "release_date": "2025-12-27",
   "file_size": "1.05 MB",
   "is_mandatory": false,
   "flag": "debug",
@@ -10,13 +10,24 @@
     {
       "title": "新增功能",
       "items": [
-        "增加类目可排序"
+        "支持深色模式切换，在设置中可自由切换",
+        "新增反馈,支持反馈内容与反馈截图",
+        "客户端存储单点登录提醒",
+        "增加全文搜索功能",
+        "增加七牛云存储方式"
+      ]
+    },
+    {
+      "title": "问题修复",
+      "items": [
+        "修复部分弹窗显示问题"
       ]
     },
     {
       "title": "界面优化",
       "items": [
-        "优化界面弹窗ui"
+        "优化界面弹窗ui",
+        "优化登录弹窗ui"
       ]
     }
   ],
@@ -25,15 +36,3 @@
     "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
