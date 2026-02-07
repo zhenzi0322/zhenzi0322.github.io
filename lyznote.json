@@ -1,6 +1,6 @@
 {
   "current_version": "1.2.945",
-  "latest_version": "1.2.990",
+  "latest_version": "1.2.991",
   "release_date": "2026-02-07",
   "file_size": "1.05 MB",
   "is_mandatory": false,
@@ -36,4 +36,5 @@
     "compatibility": "Windows 10+/macOS 12+/Linux Ubuntu 20.04+"
   }
 }
+
 
